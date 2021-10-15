@@ -231,7 +231,7 @@ nav{
     border-radius: 15px;
 }
 .add-item img{
-    /* filter: invert(); */
+    filter:  brightness(0) invert(1);
 }
 .add-btn{
     margin-left: 1em;
@@ -261,9 +261,6 @@ nav{
     .add-item{
         margin-left: 1em;
         width: 50%;
-    }
-    .add-item img{
-        filter:  brightness(0) invert(1);
     }
 }
 
