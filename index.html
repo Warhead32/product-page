@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>E-commerce product page</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <nav>
+    <div class="nav-center">
+      <div class="nav-header">
+        <div class="brand">
+          <button class="nav-toggle-btn"><img src="./images/icon-menu.svg"></button>
+          <img src="./images/logo.svg" alt="" class="logo">
+        </div>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="#">Collections</a>
+          </li>
+          <li>
+            <a href="#">Men</a>
+          </li>
+          <li>
+            <a href="#">Women</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="profile">
+        <button class="basket-btn"><img src="./images/icon-cart.svg"></button>
+        <button class="profile-btn"><img src="./images/image-avatar.png" alt=""></button>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="container container-flex">
+      <div class="display-product col-2">
+        <img src="./images/image-product-1.jpg">
+      </div>
+
+      <div class="product-desc col-2">
+        <p class="sneaker-brand">sneaker company</p>
+        <h1 class="sneaker-title">Fall Limited Edition sneakers</h1>
+        <p class="sneaker-desc">These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div class="pricing">
+          <div class="discount-section">
+            <h2 class="discounted-price">$125.00</h2>
+            <h4 class="discount">50%</h4>
+          </div>
+          <div class="price-section">
+            <h4 class="actual-price">$250.00</h4>
+          </div>
+        </div>
+        <div class="add-to-cart">
+          <div class="quantity">
+            <button class="minus-btn"><img src="./images/icon-minus.svg" alt=""></button>
+            <p class="item-quantity">0</p>
+            <button class="plus-btn"><img src="./images/icon-plus.svg" alt=""></button>
+          </div> 
+          <div class="add-item">
+            <img src="./images/icon-cart.svg">
+            <button class="add-btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+   <script src="./app.js"></script>
+</body>
+
+</html>
